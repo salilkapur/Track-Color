@@ -1,0 +1,13 @@
+Tracking Colored Objects
+
+Based on OpenCV 2.3.1
+
+By default it tracks yellow objects.
+
+You can set your custom HSV values in the code
+
+Make changes in line 20
+
+	inRange(img,Scalar(40,100,100),Scalar(70,200,200),img);
+
+Set the Scalar() values as per your need
