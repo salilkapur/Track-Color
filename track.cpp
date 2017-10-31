@@ -29,6 +29,7 @@ point detect(Mat img)
 int main()
 {
 	static point p_last;
+	// Initialize camera
 	VideoCapture cam(0);
 	
 	if(!cam.isOpened())
