@@ -31,7 +31,7 @@ int main()
 	static point p_last;
 	// Initialize camera
 	VideoCapture cam(0);
-	
+	// Check if the camera is initialized
 	if(!cam.isOpened())
 		cout<<"Camera not initialized";
 	
